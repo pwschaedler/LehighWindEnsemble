@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>The Wind Ensemble at Lehigh University</title>
+    
+    <link rel="stylesheet" href="skeleton/normalize.css">
+    <link rel="stylesheet" href="skeleton/skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Abril+Fatface'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway'>
+</head>    
+<body>
+<div id="all">
+    <div id="top">
+        <div id="title" class="">The Wind Ensemble at Lehigh University</div>
+        <nav class="">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="cds.html">CDs</a>
+            <a href="concerts.html">Concerts</a>
+            <a href="archive.html">Archive</a>
+            <a href="members.html">Members</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    
+    <div class="row">
+        <span class="section-header">Contact Us</span>
+    </div>
+    
+    <div class="row">
+        To request further infomation on the Wind Ensemble, just fill out the following form and click on the send button. When you do, you will be sent to another page which will confirm that your message has been sent. Then, simply use the back button on your browser to return to this page.
+    </div>
+    
+    <div class="row" id="form-div">
+        <form method=post action="http://www.lehigh.edu/cgi-bin/process_query">
+            <input type="hidden" name="FORMname" value="Request for Wind Ensemble Information">
+            <input type="hidden" name="RECIPIENT" value="dbd2@lehigh.edu">
+            
+            <fieldset>
+            <legend>Personal Information</legend>
+                First Name<br>
+                <input type="text" name="First_name" class="text-input"><br>
+
+                Last Name<br>
+                <input type="text" name="Last_name" class="text-input"><br>
+
+                Address<br>
+                <input type="text" name="Address_Line1" class="text-input"><br>
+                <input type="text" name="Address_Line2" class="text-input"><br>
+
+                City<br>
+                <input type="text" name="City" class="text-input"><br>
+
+                State<br>
+                <select name="State" class="text-input">
+                    <option value="none" selected></option>
+                    <option>Alabama</option>
+                    <option>Alaska</option>
+                    <option>Arizona</option>
+                    <option>Arkansas</option>
+                    <option>California</option>
+                    <option>Colorado</option>
+                    <option>Connecticut</option>
+                    <option>Delaware</option>
+                    <option>Dist. of Columbia</option>
+                    <option>Florida</option>
+                    <option>Georgia</option>
+                    <option>Guam</option>
+                    <option>Hawaii</option>
+                    <option>Idaho</option>
+                    <option>Illinois</option>
+                    <option>Indiana</option>
+                    <option>Iowa</option>
+                    <option>Kansas</option>
+                    <option>Kentucky</option>
+                    <option>Louisiana</option>
+                    <option>Maine</option>
+                    <option>Maryland</option>
+                    <option>Massachusetts</option> 
+                    <option>Michigan</option> 
+                    <option>Minnesota</option> 
+                    <option>Mississippi</option> 
+                    <option>Missouri</option> 
+                    <option>Montana</option> 
+                    <option>Nebraska</option> 
+                    <option>Nevada</option> 
+                    <option>New Hampshire</option> 
+                    <option>New Jersey</option> 
+                    <option>New Mexico</option> 
+                    <option>New York</option> 
+                    <option>North Carolina</option> 
+                    <option>North Dakota</option> 
+                    <option>Ohio</option> 
+                    <option>Oklahoma</option> 
+                    <option>Oregon</option> 
+                    <option>Pennsylvania</option> 
+                    <option>Puerto Rico</option> 
+                    <option>Rhode Island</option> 
+                    <option>South Carolina</option> 
+                    <option>South Dakota</option> 
+                    <option>Tennessee</option> 
+                    <option>Texas</option> 
+                    <option>Utah</option> 
+                    <option>Vermont</option> 
+                    <option>Virginia</option> 
+                    <option>Virgin Islands</option> 
+                    <option>Washington</option> 
+                    <option>West Virginia</option> 
+                    <option>Wisconsin</option> 
+                    <option>Wyoming</option>
+                </select><br>
+
+                Zip/Postal Code<br>
+                <input type="text" name="Zip_Code" class="text-input"><br>
+
+                Country (if other than the USA)<br>
+                <input type="text" name="Country_if_not_USA" class="text-input"><br>
+
+                Email Address<br>
+                <input type="email" name="Email_Address" class="text-input"><br>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Musical/Other Information</legend>
+                Instruments Played<br>
+                <input type="text" name="Instruments_Played" class="text-input"><br>
+                
+                I am a ...<br>
+                <select name="I am a: " class="text-input">
+                    <option value="none" selected></option>
+                    <option>Current High School Junior</option> 
+                    <option>Current High School Senior</option>
+                    <option>Current Lehigh student</option> 
+                    <option>Lehigh Faculty/Staff member</option> 
+                    <option>Community member</option>
+                </select><br>
+                
+                How did you find out about the Lehigh University Wind Ensemble?<br>
+                <select name="I found out about the Wind Ensemble from:" class="text-input">
+                    <option value="none" selected></option>
+					<option>Friend/Relative is in the group</option>
+					<option>Linked to these pages through Lehigh's home page</option>
+					<option>A poster</option>
+					<option>A brochure</option>
+					<option>Other</option>
+                </select><br>
+                
+                <input type="checkbox" name="Send email" value="yes">
+                Please send me emails telling me more about the group.<br>
+                
+                Comments<br>
+                <textarea name="Comments:" class="text-input"></textarea><br>
+            </fieldset>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+        </form>
+    </div>
+</div>
+</body>
+</html>

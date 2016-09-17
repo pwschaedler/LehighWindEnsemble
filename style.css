@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+    min-width: 600px;
+    background: #59260B;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.65em;
+    margin: 20px 0px;
+    max-width: 100%;
+    min-height: 100%;
+    padding: 0px 50px 20px 50px;
+    background: white;
+    background: linear-gradient(white, lightgray);
+    background: -webkit-linear-gradient(white, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, lightgray); /* For Firefox 3.6 to 15 */
+}
+
+#all {
+    max-width: 960px;
+    margin: auto;
+}
+
+a {
+    color: #59260B;
+}
+
+a:hover {
+    color: #FEB400;
+}
+
+#top {
+    
+}
+
+#title {
+    display: block;
+    font-family: 'Abril Fatface', serif;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: solid 1px #59260B;
+}
+
+#title img {
+    display: block;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-family: 'Arial', 'Raleway', sans-serif;
+}
+
+nav a {
+    display: table-cell;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FEB400;
+}
+
+/* other nav a stuff */
+
+#main-img {
+    
+}
+
+#main-img img {
+    display: block;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.section {
+    
+}
+
+.section-header {
+    display: block;
+    font-size: 1.25em;
+    border-bottom: solid 1px #59260B;
+    font-family: 'Abril Fatface', serif;
+}
+
+.section-body {
+    display: block;
+}
+
+.section img {
+    width: 100%;
+}
+
+.row {
+    clear: both;
+    display: block;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left {
+    
+}
+
+.middle {
+    
+}
+
+.right {
+    
+}
+
+#links {
+    list-style: none;
+}
+
+#links li {
+    margin: 0;
+}
+
+#events {
+    list-style: none;
+}
+
+#events li {
+    padding-left: 20px;
+    text-indent: -20px;
+}

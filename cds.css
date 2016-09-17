@@ -1,0 +1,21 @@
+.content {
+    max-width: 550px;
+    margin: auto;
+}
+
+.row img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.25em;
+}
+
+.title {
+    font-family: 'Abril Fatface', serif;
+    font-size: 1.25em;
+    text-decoration: none;
+}

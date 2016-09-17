@@ -1,0 +1,48 @@
+.head {
+    text-align: center;
+}
+
+.section-header {
+    font-size: 2em;
+}
+
+.poster {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.narrow {
+    max-width: 700px;
+    margin: 20px auto auto auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.left {
+    text-align: left;
+    /* font-style: italic; */
+}
+
+.right {
+    text-align: right;
+}
+
+.song-title {
+    font-weight: bold;
+}
+
+.indent {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.center {
+    clear: both;
+    font-style: normal;
+    text-align: center;
+}
+
+.large {
+    font-weight: bold;
+    font-size: 1.75em;
+}

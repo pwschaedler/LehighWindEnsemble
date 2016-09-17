@@ -1,0 +1,10 @@
+.row {
+    display: inline-block;
+    width: 70%;
+}
+
+#poster1 img {
+    float: right;
+    width: 25%;
+    padding: 2.5%;
+}

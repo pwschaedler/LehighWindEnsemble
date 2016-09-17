@@ -1,0 +1,30 @@
+.section-header {
+    font-size: 2em;
+}
+
+.side-image {
+    width: 50%;
+    float: right;
+}
+
+.side-image img {
+    width: 100%;
+}
+
+.text-part {
+    width: 50%;
+}
+
+.song-title {
+    font-weight: bold;
+}
+
+.indent {
+    padding-left: 20px;
+}
+
+/* Lehigh Glory */
+.lyric-title {
+    font-weight: bold;
+    text-decoration: underline;
+}
