@@ -1,0 +1,10 @@
+#antrobus {
+    padding: 5px 0;
+    width: 100%;
+}
+
+.side-image {
+    padding: 5px;
+    width: 33%;
+    float: right;
+}
